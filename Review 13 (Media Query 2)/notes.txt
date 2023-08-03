@@ -1,0 +1,70 @@
+~~~HTML~~~~
+<h1> <br> <br>Hello World!</h1>
+
+~~~~CSS (changing styles based on different breakpoints or screen sizes)~~~~~
+
+
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+    body {
+        background-color: #F5F5F5;
+    }
+    
+    h1::before {
+        content: "I am MOBILE SCREEN.";
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width:768px){
+    body {
+        background-color: #F2EAD3;
+    }
+    
+    h1::before {
+        content: "I am a TABLET SCREEN.";
+    }
+}
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    body {
+        background-color: #DFD7BF;
+    }
+    
+    h1::before {
+        content: "I am LAPTOP SCREEN.";
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width:1200px ){
+    body {
+        background-color: #3F2305;
+    }
+    
+    h1::before {
+        content: "I am DESKTOP SCREEN.";
+    }
+}
+
+@media only screen and (min-width:1201px) {
+    
+    body {
+        background-color: #A4907C;
+    }
+    
+    h1::before {
+        content: "I am TV SCREEN.";
+    }
+}
+
+

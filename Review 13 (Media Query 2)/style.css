@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5EFE7;
+}
+
+nav {
+    background-color: #001C30;
+    color: white;
+    padding: 20px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    transition: all ease 0.2s;
+}
+
+
+@media only screen and (max-width: 515px) {
+
+    a {
+
+        transition: all ease 0.2s;
+        padding: 0 5px;
+    }
+
+}
+
+/* Easier to comprehend if min-width was included */
+@media only screen and (max-width: 332px) {
+
+    nav {
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        padding: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 270px) {
+
+    nav {
+
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        padding: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+
+    nav {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        padding: 5px 0;
+    }
+
+
+}
