@@ -1,0 +1,1 @@
+It is best to leave the decorative elements in CSS so as not to clutter the markup texts in HTML (Screen reader issues).

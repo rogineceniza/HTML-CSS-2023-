@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.toggle {
+  opacity: 0;
+}
+
+.toggle + label {
+  position: relative;
+  /* border: 1px solid black; */
+  padding-left: 5rem;
+}
+
+.toggle + label::before {
+  content: "";
+  background-color: rgb(176, 202, 200);
+  position: absolute;
+  top: -0.6rem;
+  left: 0;
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+}
+
+.toggle + label::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: -0.3rem;
+  left: 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.toggle:checked + label::before {
+  background-color: green;
+}
+
+.toggle:checked + label::after {
+  transform: translateX(2rem);
+}
