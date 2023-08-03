@@ -1,0 +1,38 @@
+.container {
+    width: 80%;
+    height: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns:1fr 1fr 150px;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas:
+      ". nav nav"
+      "main . side"
+      "footer footer .";
+  } 
+  .box {
+    background-color: pink;
+    text-align: center;
+    color: white;
+  }
+  
+  /* .box1 {
+    grid-area: head;
+  } */
+  
+  .box2{
+  grid-area: nav ;
+  }
+  
+  .box3{
+      grid-area: main;
+  }
+  
+  .box4{
+      grid-area: side;
+  }
+  
+  .box5{
+      grid-area: footer;
+  }
+  
