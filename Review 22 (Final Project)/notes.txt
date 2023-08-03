@@ -1,0 +1,59 @@
+</nav>
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    <a href="#link">Click Me</a>
+
+    <p class="secondary-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque natus sit
+      sed rerum animi beatae doloremque sint delectus molestiae quia! Quibusdam
+      vel laborum amet dolor ipsum, harum dolore nesciunt nemo.
+    </p>
+
+    <button class="primary-button">afnkaf</button>
+    <button class="secondary-button with-icon">
+      afnkaf
+      <img src="/assets/arrow-right-dark.svg" alt="" />
+    </button>
+
+    <button class="primary-button with-icon">
+      afnkaf
+      <img src="/assets/arrow-right-light.svg" alt="" />
+    </button>
+
+    <p class="subtitle">I am subtitle</p>
+    <p class="subtitle2">I am subtitle</p>
+
+    <div class="section-container">
+      <div class="two-column">
+        <div class="col-left">
+          <h3>Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur nemo animi, perspiciatis aliquid doloribus possimus
+            esse quia, recusandae magnam, rem impedit. Autem, laboriosam
+            repellat iste ad dolore aut eaque explicabo.
+          </p>
+        </div>
+
+        <div class="col-right">
+          <h3>Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            explicabo asperiores nisi suscipit deleniti sint incidunt
+            voluptatibus nihil dolorem labore ratione molestias voluptatem
+            molestiae officiis eligendi, unde, odio hic corrupti?
+          </p>
+          <div class="two-column">
+            <div class="col-left">lnsfvdlsnv</div>
+            <div class="col-right">slkjdnvlsnv</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    *NOTES*
+    To center a GRID container : "place-self: center;"
