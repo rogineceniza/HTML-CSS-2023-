@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #EEE2DE;
+}
+
+
+
+.container {
+    
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EA906C;
+    height: 50vh;
+    /* align-items: flex-start; */
+    /* flex-wrap: nowrap; */
+}
+
+span {
+    background-color: maroon;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+    width: 100px;
+}

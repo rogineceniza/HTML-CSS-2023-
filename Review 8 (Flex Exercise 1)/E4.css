@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black;
+    height: 40vh;
+    width: 400px;
+    background-color: bisque;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: auto;
+}
+
+span {
+    background-color: maroon;
+    color: white;
+    margin: 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.special{
+    align-self:baseline;
+}

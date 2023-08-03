@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 10%;
+    height: 30vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+span {
+    font-size: smaller;
+    background-color: pink;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.eigth{
+    /* align-self:baseline; */
+}
