@@ -1,0 +1,34 @@
+div{
+    position: absolute;
+}
+
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: maroon;
+    top: 0;
+    left: 0;
+    
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    top: 0;
+    right: 0;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    left: 0;
+    bottom: 0;
+}
+.gold{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    right: 0;
+    bottom: 0;
+}

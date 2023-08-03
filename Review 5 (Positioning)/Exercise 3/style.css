@@ -1,0 +1,15 @@
+
+
+div {
+    width: 300px;
+    height: 100vh;
+    background-color: indianred;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+button {
+    position: absolute;
+    right: 0px;
+}

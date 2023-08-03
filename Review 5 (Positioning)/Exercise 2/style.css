@@ -1,0 +1,16 @@
+.big {
+    width: 400px;
+    height:500px;
+    background-color: #A75D5D;
+    position: relative;
+}
+
+.smol {
+    width: 100px;
+    height: 100px;
+    background-color: #D3756B;
+    position: absolute;
+    /* top: 150px;  */
+    left: 350px;
+    top: calc(50% - 50px);
+} 
