@@ -1,0 +1,104 @@
+~~~~GRID CONTAINER~~~~
+.container{
+    display:grid;
+    grid-template: 1f 1f / 1fr 1fr 1fr;
+                    row        col 
+}
+
+
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  /* grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr; */
+  
+  height: 700px;
+  width: 80%;
+  box-shadow: 0 6px 20px rgb(0 0 0 /0.2);
+  background: black;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(200px, auto))   ; */
+  
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template: repeat(2, 1fr) / repeat(5, minmax(100px 250px));
+}
+
+  grid-template-columns: fit-content(100px) fit-content(500px) fit-content(200px) ;
+                                     - max-width of content(container)
+                                     - dont go above that threshold
+
+
+
+
+
+NOTES!
+display:grid;
+grid-template: 1f 1f / 1fr 1fr 1fr;
+              row        col 
+
+or
+
+grid-template-rows: 1fr 1fr ; 
+grid-template-columns: 1fr 1fr 1fr;
+
+
+grid-template-rows: repeat(3, minmax(200px, auto)) ;    // 3 rows are affected
+                                                        // has a minimum width of 200px, max of auto
+grid-template-columns: repeat(3, minmax(200px, auto)) ;  // seym goes for here
+  
+or
+  
+grid-template: repeat(2, 1fr) / repeat(5, minmax(100px 250px));
+                row               col 
+
+
+grid-template-columns: fit-content(100px) fit-content(500px) fit-content(200px) ;
+                                     - max-width of content(container)
+                                     - dont go above that threshold
+
+
+
+~~~~~GRID ITEMS~~~~~
+~~~~~GRID SHORTHAND~~~~~
+- take note that u need this code below to activate, so grid-col and row will work:
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 5px;
+
+.box1{
+    grid-column: 2/5;    // starts from col 2, spans to col 5 
+    grid-row: 2/4;      //starts from row 2, spans to row 4
+}
+
+~~~~~ITS CORRESPONDING LONGHAND~~~~~~
+.box1{
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+ or with the use of spans (tells how many squares to cover) 
+
+.box1{
+
+  grid-column-start: 1;
+  grid-column-end: span 3;
+
+  grid-row-start: 2;
+  grid-row-end: span 5;
+}
+
+
+or using the shortest shorthand
+
+
+.box1{
+    grid-area: 1/4/4/6;
+}               row-start
+                col-start
+
+                row-end
+                col-end
