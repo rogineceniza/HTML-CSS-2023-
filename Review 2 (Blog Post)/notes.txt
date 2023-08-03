@@ -1,0 +1,68 @@
+h1 + p{
+     Sibling Selector, selects the firt elememt that comes after the h1 element
+}
+
+h1 ~ p{
+    selects all p that are siblings to h1
+}
+PSEUDOCODES
+
+p:hover{
+
+}
+h ~ p:hover{
+
+}
+
+li:first-of-type{
+    border: 1px solid orange;
+}
+li:last-of-type{
+    border: 2px solid fuchsia;
+}
+
+li:nth-of-type(2){
+   color: gold
+}
+
+li:nth-of-type(2n +1) {
+    background-color: mediumaquamarine;
+}
+
+ p:first-of-type::first-line{
+    font-weight: 900;
+    font-size: 40px;
+    background-color: darkgray;
+ }
+
+ input::placeholder{
+    font-weight: 800;
+    color: aquamarine;
+ }
+
+ p::selection{
+    background-color: rgb(233, 162, 162);
+    color:darkolivegreen;
+ }
+
+ input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 3px orange ;
+    }
+    
+    .blah li:nth-child(2n){
+    background-color: crimson;
+    }
+    
+    p::first-letter{
+        color: blue;
+        font-size: 30px;
+    }
+
+
+Emmet Cheat Sheet
+
+    ul>li{Item $}*5
+    ul>li*3>a
+
+    music:
+    https://www.youtube.com/watch?v=9vfqI_xVmnE
