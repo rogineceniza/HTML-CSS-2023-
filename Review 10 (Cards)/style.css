@@ -1,0 +1,122 @@
+ /* body {
+    margin: 0; */
+ /* font-family: 'Oswald', sans-serif; */
+ /* font-family: 'Jost', sans-serif;
+    background-color: #F5F5F5;
+} */
+
+ /* .navbar {
+    background-color: #F2EAD3;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #3F2305;
+    font-size: 1rem;
+    margin: 0 30px;
+} */
+
+
+ /* .right { */
+ /* display: flex; */
+ /* justify-content: flex-start; */
+ /* } */
+
+ /* .left { */
+ /* display: flex; */
+ /* justify-content: flex-end; */
+ /* } */
+
+
+
+ /* body {
+
+     margin: 0;
+     height: 100vh;
+     background: linear-gradient(#0F2027, #203A43, #2C5364);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ button {
+     background-color: #0F2027;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     color: white;
+     font-family: 'Jost', sans-serif;
+     box-shadow: -1px 8px 20px 0px rgba(0, 0, 0, 0.75);
+     -webkit-box-shadow: -1px 8px 20px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: -1px 8px 28px 0px rgba(0, 0, 0, 0.75);
+     transition: transform, box-shadow, 0.15s ease-in-out;
+ }
+
+ button:hover {
+     box-shadow: 0px 8px 21px -5px rgba(0, 0, 0, 0.75);
+     -webkit-box-shadow: 0px 8px 21px -5px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 0px 8px 21px -5px rgba(0, 0, 0, 0.75);
+
+     transform: scale(0.95);
+ }
+
+ button:active {
+     background-color: #2C5364;
+ }
+  */
+
+
+body{
+    margin: 0;
+}
+
+ h1 {
+     text-align: center;
+ }
+
+ .container {
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+
+ .card {
+     background-color: #606C5D;
+     border-radius: 10px;
+     width: 400px;
+     margin: 0 30px;
+     display: flex;
+     /* height: 400px; */
+     flex-direction: column;
+     border: 2px solid black;
+ }
+
+
+
+ .card footer {
+     background-color: #F1C376;
+     color: #606C5D;
+     text-align: center;
+     /* margin: auto 0; */
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: auto;
+ }
+
+ p {
+     color: #FFF4F4;
+     padding: 0 10px;
+ }
+
+ h2 {
+
+     padding: 0 10px;
+     color: black;
+ }
