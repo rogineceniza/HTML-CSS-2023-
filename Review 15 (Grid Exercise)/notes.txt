@@ -1,0 +1,57 @@
+.container{
+    display:grid;
+    grid-template: 1f 1f / 1fr 1fr 1fr;
+                    row        col 
+}
+
+
+
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  /* grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr; */
+  
+  height: 700px;
+  width: 80%;
+  box-shadow: 0 6px 20px rgb(0 0 0 /0.2);
+  background: black;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(200px, auto))   ; */
+  
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template: repeat(2, 1fr) / repeat(5, minmax(100px 250px));
+}
+
+  grid-template-columns: fit-content(100px) fit-content(500px) fit-content(200px) ;
+                                     - max-width of content(container)
+                                     - dont go above that threshold
+
+
+
+
+
+NOTES!
+display:grid;
+grid-template: 1f 1f / 1fr 1fr 1fr;
+              row        col 
+
+or
+
+grid-template-rows: 1fr 1fr ; 
+grid-template-columns: 1fr 1fr 1fr;
+
+
+grid-template-rows: repeat(3, minmax(200px, auto)) ;    // 3 rows are affected
+                                                        // has a minimum width of 200px, max of auto
+grid-template-columns: repeat(3, minmax(200px, auto)) ;  // seym goes for here
+  
+or
+  
+grid-template: repeat(2, 1fr) / repeat(5, minmax(100px 250px));
+                row               col 
+
+
+grid-template-columns: fit-content(100px) fit-content(500px) fit-content(200px) ;
+                                     - max-width of content(container)
+                                     - dont go above that threshold

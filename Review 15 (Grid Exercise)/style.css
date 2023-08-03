@@ -1,0 +1,28 @@
+
+.container {
+  height: 700px;
+  width: 80%;
+  margin: 200px auto;
+  display: grid;
+  background: black;
+  box-shadow: 0 6px 20px rgb(0 0 0 /0.2);
+  /* grid-template: repeat(2, 100px) / repeat(4, minmax(100px, 250px));
+  justify-content: center; */
+
+  /* grid-template-columns: fit-content(100px) fit-content(500px);
+  grid-template-rows: fit-content(100px);  
+  column-gap: 5px;
+  row-gap: 5px; */
+
+  /* grid-template-rows: fit-content(50px) 1fr 1fr  ; */
+
+  grid-template: 1fr 1fr / repeat(4, 1fr);
+  grid-gap: 20px
+}
+
+.box {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
