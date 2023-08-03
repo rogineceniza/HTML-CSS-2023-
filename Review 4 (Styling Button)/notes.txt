@@ -1,0 +1,53 @@
+"Working with Background Images"
+
+background-image: url(images/archons.png);
+background-image: url(images/moose.png), url(images/archons.png);
+background-image: url(from net);
+
+background-repeat: no-repeat;
+
+background-size:contain;  // by deafult, it is tiled
+background-size:contain;  // better
+
+background-position: bottom left;  // shows bottom left part of image
+background-size: cover;  // included so bs can work
+
+"Working with Gradients"
+
+background: linear-gradient(pink, maroon);
+background-image: linear-gradient(pink, green);  // better
+
+"EXAMPLE"
+
+div {
+    margin: 20px;
+}
+
+
+.one {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    /* background: linear-gradient(pink, maroon); */
+    background-image: linear-gradient(217deg, maroon, pink),
+        linear-gradient(233deg, green, orange);
+
+}
+
+
+.two {
+    border: 2px solid black;
+    width: 500px;
+    height: 700px;
+    /* background-image: linear-gradient(.25turn, red, blue); */
+    background-image: radial-gradient(circle at bottom, red, blue);
+
+
+}
+
+.three {
+    border: 2px solid black;
+    width: 500px;
+    height: 700px;
+    background: conic-gradient(red, orange, yellow, green, blue, violet);
+}

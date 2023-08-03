@@ -1,0 +1,27 @@
+
+.another-box{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: olive;
+    display: inline-block;
+    position: relative;
+    
+}
+.box{
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    background-color: olive;
+    display: inline-block;
+    position: relative;
+    top: 300px;
+}
+
+.box span{
+    color: white;
+    background-color: maroon;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
