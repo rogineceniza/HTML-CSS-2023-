@@ -1,0 +1,200 @@
+/* h1{
+animation-name: move;
+animation-timing-function:linear;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+display: inline-block;
+}
+
+
+h2{
+animation: move 2s infinite linear ;
+}
+
+div {
+  background-color: maroon;
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  animation-name: colorchanger;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+    background-color: pink;
+  }
+  to {
+    transform: rotate(360deg);
+    background-color: navy;
+  }
+} */
+
+/* @keyframes colorchanger{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: green;
+    }
+} */
+
+/* 
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+        background-color: pink;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: gold;
+    }
+} */
+
+/* @keyframes rainbow{
+    0%{
+        background-color: maroon;
+    }
+    14%{
+        background-color: orange;
+    }
+    28%{
+        background-color: gold;
+    }
+    42%{
+        background-color: olive;
+    }
+    56%{
+        background-color: navy;
+    }
+    70%{
+        background-color: indigo;
+    }
+    84%{
+        background-color: violet;
+    }
+
+} */
+
+body {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.spinner {
+  margin-bottom: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+  border-top-color: rgb(133, 11, 31);
+  /* border-left-color:rgb(225, 225, 13) ;
+    border-bottom-color:rgb(30, 252, 15) ;
+    border-right-color:rgb(31, 10, 139) ; */
+  animation: 1s spin infinite ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* 25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    } */
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+  /* NEW DIV */
+}
+.loader span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: maroon;
+  margin: 0 10px;
+}
+
+.loader span:nth-child(1) {
+  animation: 1s jump infinite ease-in-out;
+}
+.loader span:nth-child(2) {
+  animation: 1s jump infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+.loader span:nth-child(3) {
+  animation: 1s jump infinite ease-in-out;
+  animation-delay: 0.4s;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0) scale(0.5);
+  }
+  50% {
+    transform: translateY(-15px) scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(0.5);
+  }
+}
+
+/* NEW DIV */
+
+.loaderNew span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: maroon;
+  border-radius: 50%;
+  margin: 30px 10px;
+}
+
+.loaderNew span:nth-child(1) {
+  animation: 1s slide infinite ease;
+}
+.loaderNew span:nth-child(2) {
+  animation: 1s slide infinite ease;
+  animation-delay: 0.2s;
+}
+.loaderNew span:nth-child(3) {
+  animation: 1s slide infinite ease;
+  animation-delay: 0.4s;
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.5);
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.box {
+  background-color: maroon;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 2s move  ease;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  transition: all ease 1s;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+        background-color: deeppink;
+    }
+    100%{
+        transform: translateX(300px);
+        background-color: palevioletred;
+    }
+    /* 100%{
+        transform: translateX(0);
+    } */
+   
+}
