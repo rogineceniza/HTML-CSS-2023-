@@ -1,0 +1,8 @@
+CSS UNITS
+rem = based on the root element
+em = based on the parent element
+
+px - avoid for font-sizes. Use it for small details like borders and shadows.
+rem/em - best choice for font-sizes and often padding/margin
+% - useful for defining layouts.
+vh/vw - used for larger layout concerns.
