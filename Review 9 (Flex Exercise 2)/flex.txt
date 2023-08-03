@@ -1,0 +1,73 @@
+~Using FLEX~
+
+~~~~~~~~~~~~ HTML ~~~~~~~~~~~~
+
+<div class="border">
+
+    <div class="container1">
+        I AM SIDEBAR!
+    </div>
+
+    <div class="para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam ex facere, ullam nobis iste magnam eos
+            architecto
+            earum sed nisi beatae? Sed tempora beatae incidunt nemo est, repellendus reprehenderit harum.</p>
+
+    </div>
+
+    <div class="container2">
+        I AM SIDEBAR!
+    </div>
+
+</div>
+
+
+
+
+~~~~~~~~~~~~ CSS ~~~~~~~~~~~~
+
+.border {
+    display: flex;
+    margin: auto;
+    /* justify-items: center;
+    align-content: center; */
+    justify-content: space-between;
+    border: 2px solid black;
+
+}
+
+.para {
+    background-color: pink;
+    /* flex: 1; */
+}
+
+.container1 {
+    border-right: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategrey;
+    color: white;
+    /* flex: 1; */
+}
+
+.container2 {
+    border-left: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategrey;
+    color: white;
+    /* flex: 1; */
+}
+
+p {
+    padding: 20px;
+    width: 600px;
+    margin: 0;
+
+}
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flex basis is the intial size of an element (mostly divs)
+
+order = organizes elements in ascending order(-1, 0, 1, 2, 3, 4) 
