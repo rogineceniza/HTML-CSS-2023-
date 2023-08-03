@@ -1,0 +1,21 @@
+:root{
+    --brand-color: rgb(14, 70, 12);
+}
+
+
+
+
+
+
+button{
+    background-color: var(--brand-color) ; 
+}
+
+h1{
+    --brand-color: rgb(143, 37, 53);
+    color: var(--brand-color);
+}
+
+div{
+    border: 2px solid var(--brand-color);
+}
