@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+a {
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 15px;
+    color: maroon;
+    display: inline-block;
+    transition: transform 3s ease-out 4s;
+}
+
+a:hover {
+    background-color: pink;
+    color: olive;
+    transform: rotateX(20deg'angle');
+}
+
+.mo {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    translate: all 1s;
+}
+
+.mo:hover {
+    transform: rotateX('90deg')
+}
+
+h1 {
+    transition: ease-in-out 1s;
+    display: inline-block;
+}
+
+h1:hover {
+    font-size: 50px;
+    transform: scale(3);
+}
+
+.swim {
+    border: 2px solid maroon;
+    width: 200px;
+    height: 100px;
+
+    transition: linear 1s;
+}
+
+.swim:hover{
+    transform-origin: top left;
+    transform:rotate(123deg) scale(3)
+
+
+}

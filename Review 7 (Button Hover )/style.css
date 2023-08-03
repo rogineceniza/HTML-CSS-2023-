@@ -1,0 +1,53 @@
+  body {
+      background: linear-gradient(to bottom right, #4C4B16, #898121);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  button {
+      padding: 10px 30px;
+      background-color: #F7F1E5;
+      border: none;
+      border-radius: 5px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      letter-spacing: 3px;
+      cursor: pointer;
+      margin: 0 1rem;
+      text-transform: uppercase;
+
+  }
+
+
+
+  .btn {
+      display: inline-block;
+      transition: all 0.1s ease-in-out;
+  }
+
+  .btn1 {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+  }
+
+  .btn1:hover {
+      box-shadow: 0 19px 32px rgba(0, 0, 0, 0.3), 0 14px 15px rgba(0, 0, 0, 0.33);
+      transform: translateY(-5px);
+
+  }
+
+  .btn2 {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+
+  }
+
+  .btn2:hover {
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.3);
+      transform: scale(0.98);
+
+  }
