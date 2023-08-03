@@ -1,0 +1,120 @@
+body {
+  font-family: 'Cormorant', serif;
+}
+
+h1{
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
+}
+
+.header, li{ 
+  display: inline-block;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+  font-size: 20px;
+  margin: 0 8px;
+}
+.navbar{
+  margin: 32px;
+}
+
+ul{
+  padding: 0;
+}
+
+a#active{
+  /* text-decoration: 1px solid underline black; */
+  border-bottom: 1px solid black;
+}
+
+.yo img{
+height: 500px; 
+width: 100%;
+object-fit:cover;
+box-shadow: 1px 1px 10px black;
+}
+
+img:hover{
+  opacity: 90%;
+}
+
+.yo{
+  width: 49.75%;
+  display: inline-block;  
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.yo h2{
+  display: inline-block;
+  margin: 8px 0 0 0 ;
+  font-weight: 300;
+}
+
+.about h3{
+font-weight: 300;
+font-size: 40px;
+}
+
+.underline{
+  border-bottom: 1px solid black;
+  display: inline-block;
+padding-bottom: 10px;
+margin-top: 0 ;
+}
+
+
+.about{
+  width: 40%;
+  min-width: 600px;
+  margin: 100px 0px 100px 200px;
+}
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact p{
+  margin: 0;
+  font-size: 20px;
+}
+
+h4{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 30px ;
+  text-decoration: none;
+}
+.za:hover{
+opacity: 50%;
+}
+
+@media only screen and (max-width: 785px){
+  .gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .yo{
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 880px){
+  #about{
+    min-width: 500px;
+    margin: 0 auto 100px auto;
+  }
+
+  .about h3{
+    font-size: 30px;
+  }
+  
+}
